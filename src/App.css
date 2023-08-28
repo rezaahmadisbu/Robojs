@@ -1,0 +1,63 @@
+.cardlist-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardlist-title {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+.cardlist-title{
+  color: darkgreen;
+  font-family: "Space Mono", monospace;
+  font-size: 46px;
+}
+
+
+/*-------------------------------------------------------*/
+.fixed-container {
+  position: sticky;
+  top: 0;
+  background-color: lightblue;
+  z-index: 1;
+}
+
+.cardlist-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px; /* add margin to account for fixed container */
+}
+
+.cardlist-title {
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'SEGA LOGO FONT';
+  font-weight: 200;
+  color: darkgreen;
+}
+
+.search-box {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-box input {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 400px;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
